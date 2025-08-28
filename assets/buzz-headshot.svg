@@ -1,0 +1,45 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="140" fill="#1a365d" stroke="#2d3748" stroke-width="4"/>
+  
+  <!-- Stars in background -->
+  <circle cx="80" cy="80" r="2" fill="#ffd700"/>
+  <circle cx="220" cy="70" r="1.5" fill="#ffd700"/>
+  <circle cx="90" cy="200" r="1" fill="#ffd700"/>
+  <circle cx="240" cy="180" r="2" fill="#ffd700"/>
+  <circle cx="60" cy="150" r="1.5" fill="#ffd700"/>
+  
+  <!-- Helmet/Head -->
+  <circle cx="150" cy="130" r="80" fill="#e2e8f0" stroke="#718096" stroke-width="3"/>
+  
+  <!-- Helmet reflection -->
+  <ellipse cx="130" cy="110" rx="25" ry="35" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Face area -->
+  <circle cx="150" cy="130" r="60" fill="#f7fafc"/>
+  
+  <!-- Eyes -->
+  <circle cx="135" cy="120" r="8" fill="#2d3748"/>
+  <circle cx="165" cy="120" r="8" fill="#2d3748"/>
+  <circle cx="137" cy="118" r="3" fill="#ffffff"/>
+  <circle cx="167" cy="118" r="3" fill="#ffffff"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="135" rx="3" ry="5" fill="#e2e8f0"/>
+  
+  <!-- Mouth -->
+  <path d="M 140 145 Q 150 155 160 145" stroke="#2d3748" stroke-width="2" fill="none"/>
+  
+  <!-- Space suit collar -->
+  <rect x="120" y="200" width="60" height="40" fill="#4a5568" rx="5"/>
+  <rect x="125" y="205" width="50" height="30" fill="#2d3748" rx="3"/>
+  
+  <!-- Space suit details -->
+  <circle cx="135" cy="220" r="4" fill="#e53e3e"/>
+  <circle cx="150" cy="220" r="4" fill="#38a169"/>
+  <circle cx="165" cy="220" r="4" fill="#3182ce"/>
+  
+  <!-- Text -->
+  <text x="150" y="270" text-anchor="middle" fill="#ffd700" font-family="Arial, sans-serif" font-size="16" font-weight="bold">BUZZ LIGHTYEAR</text>
+  <text x="150" y="285" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12">SPACE RANGER</text>
+</svg>

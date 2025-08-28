@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buzz Lightyear - Space Ranger Portfolio">
+    <meta name="author" content="Buzz Lightyear">
+    <title>Buzz Lightyear - Space Ranger Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Buzz Lightyear</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="assets/buzz-headshot.svg" alt="Buzz Lightyear - Space Ranger" class="hero-img">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">Buzz Lightyear</h1>
+                    <h2 class="hero-subtitle">Space Ranger • Hero • To Infinity and Beyond!</h2>
+                    <p class="hero-description">
+                        Elite Space Ranger with extensive experience in intergalactic missions, 
+                        toy protection services, and friendship building. Dedicated to defending 
+                        the galaxy from the forces of evil.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am Buzz Lightyear, a dedicated Space Ranger from Star Command with a mission 
+                        to protect the universe from all threats. With my laser, karate chop action, 
+                        and unwavering determination, I've successfully completed countless missions 
+                        across the galaxy.
+                    </p>
+                    <p>
+                        Originally believing I was a real Space Ranger, I've since embraced my role 
+                        as Andy's favorite toy while maintaining my heroic spirit. My journey has 
+                        taught me the value of friendship, teamwork, and that being a toy doesn't 
+                        diminish one's capacity for greatness.
+                    </p>
+                    <p>
+                        When I'm not on a mission, you can find me training with my fellow toys, 
+                        perfecting my flying techniques, or planning our next adventure. My motto 
+                        remains unchanged: "To infinity and beyond!"
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Missions Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Years of Service</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Success Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Abilities</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Space Flight</h3>
+                    <p>Expert pilot with advanced maneuvering capabilities and stellar navigation skills.</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Laser Technology</h3>
+                    <p>Proficient in laser weaponry and energy-based combat systems.</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🥋</div>
+                    <h3>Combat Training</h3>
+                    <p>Advanced martial arts skills and tactical combat expertise.</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">👥</div>
+                    <h3>Leadership</h3>
+                    <p>Natural leader with experience commanding toy rescue operations.</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛡️</div>
+                    <h3>Protection Services</h3>
+                    <p>Dedicated to protecting children and toys from various threats.</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 98%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🤝</div>
+                    <h3>Teamwork</h3>
+                    <p>Excellent collaboration skills developed through toy community work.</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 94%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">1995 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Toy & Space Ranger</h3>
+                        <h4>Andy's Room | Bonnie's Room</h4>
+                        <p>
+                            Leading toy protection operations and maintaining order in the playroom. 
+                            Responsible for organizing rescue missions and ensuring the safety of all toys. 
+                            Successfully transitioned leadership during ownership changes.
+                        </p>
+                        <ul>
+                            <li>Led multiple successful toy rescue operations</li>
+                            <li>Maintained high morale among toy community</li>
+                            <li>Developed innovative problem-solving strategies</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1995</div>
+                    <div class="timeline-content">
+                        <h3>Space Ranger Cadet</h3>
+                        <h4>Star Command (Believed)</h4>
+                        <p>
+                            Initial period of service where I believed I was an actual Space Ranger 
+                            sent to protect the galaxy. Developed core skills and heroic mindset 
+                            that continue to serve me well.
+                        </p>
+                        <ul>
+                            <li>Mastered space flight simulation training</li>
+                            <li>Completed laser accuracy certifications</li>
+                            <li>Established strong moral compass and duty ethics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Special Missions</div>
+                    <div class="timeline-content">
+                        <h3>Special Operations Consultant</h3>
+                        <h4>Various Locations</h4>
+                        <p>
+                            Participated in high-stakes missions including daycare infiltration, 
+                            toy store navigation, and carnival security operations.
+                        </p>
+                        <ul>
+                            <li>Sunnyside Daycare tactical operation</li>
+                            <li>Al's Toy Barn reconnaissance mission</li>
+                            <li>Carnival patrol and security detail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Notable Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/E74C3C/FFFFFF?text=Mission+1" alt="Woody Rescue Mission">
+                    </div>
+                    <div class="project-content">
+                        <h3>Operation: Woody Rescue</h3>
+                        <p>
+                            Led a complex rescue operation to save Woody from a toy collector. 
+                            Coordinated team efforts and utilized advanced infiltration techniques.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Leadership</span>
+                            <span class="tech-tag">Strategy</span>
+                            <span class="tech-tag">Rescue Ops</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/27AE60/FFFFFF?text=Mission+2" alt="Daycare Defense">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sunnyside Daycare Liberation</h3>
+                        <p>
+                            Orchestrated the liberation of toys from a corrupt daycare system. 
+                            Established new democratic leadership and improved conditions for all toys.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Negotiation</span>
+                            <span class="tech-tag">Democracy</span>
+                            <span class="tech-tag">Reform</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/8E44AD/FFFFFF?text=Mission+3" alt="Toy Integration">
+                    </div>
+                    <div class="project-content">
+                        <h3>Toy Community Integration</h3>
+                        <p>
+                            Successfully integrated into existing toy communities and established 
+                            lasting friendships. Overcame initial conflicts and built strong alliances.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Diplomacy</span>
+                            <span class="tech-tag">Friendship</span>
+                            <span class="tech-tag">Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Mission Control</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready for Your Next Mission?</h3>
+                    <p>
+                        Whether you need a Space Ranger for toy protection services, leadership 
+                        consultation, or general heroic duties, I'm ready to answer the call!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-text">
+                                <h4>Space Mail</h4>
+                                <p>buzz.lightyear@starcommand.galaxy</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📡</div>
+                            <div class="contact-text">
+                                <h4>Galactic Frequency</h4>
+                                <p>Star Command Channel 7</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🌍</div>
+                            <div class="contact-text">
+                                <h4>Current Location</h4>
+                                <p>Andy's Room / Bonnie's Room</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div class="contact-text">
+                                <h4>Availability</h4>
+                                <p>24/7 for Emergency Missions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="mission-request-form">
+                        <h3>Mission Request Form</h3>
+                        <div class="form-group">
+                            <label for="name">Commander Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Communication Channel</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mission-type">Mission Type</label>
+                            <select id="mission-type" name="mission-type" required>
+                                <option value="">Select Mission Type</option>
+                                <option value="rescue">Rescue Operation</option>
+                                <option value="protection">Protection Services</option>
+                                <option value="leadership">Leadership Consultation</option>
+                                <option value="training">Training Program</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mission Brief</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe your mission requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Launch Mission Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Buzz Lightyear. Space Ranger Services Available Galaxy-Wide.</p>
+                    <p>"To infinity and beyond!" - Official Star Command Motto</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">Star Command Network</a>
+                    <a href="#" class="social-link">Toy Story Archives</a>
+                    <a href="#" class="social-link">Space Ranger Central</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
